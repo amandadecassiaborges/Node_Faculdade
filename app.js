@@ -1,4 +1,4 @@
-const a = 5
-console.log(a)
+const meuModulo = require('./modulointerno')
+const soma = meuModulo.soma
 
-console.log(5+5)
+soma(2,3)
